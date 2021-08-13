@@ -1,34 +1,23 @@
-/*-------------------------
-moovie.css - HTML5 Media player made for movies
-Made by: Bruno Vieira
---------------------------- */
 
-/* VARIABLES */
 
 :root {
 
-  /* Colors */
-  --moovie_main_color: #3191f7;
-  --moovie_bg_controls: rgba(16, 34, 62, 0.6);
-  --moovie_bg_submenu: #f7f7f7;
+  --moovie_main_color: #84f18d;
+  --moovie_bg_controls: rgba(30, 92, 48, 0.575);
+  --moovie_bg_submenu: #ffffff;
   --moovie_bg_cuetimer: #2b2b2b;
   --moovie_submenu_options_fcolor: #515151;
   --moovie_topic_submenu_fcolor: #797979 ;
   --moovie_currenttime_color: white;
-  --moovie_caption_fcolor: white;
+  --moovie_caption_fcolor: rgb(255, 242, 124);
   --moovie_cuetimer_fcolor: white;
-  /* Font Size */ 
   --moovie_submenu_options_fsize: 10pt;
   --moovie_topic_submenu_fsize: 9pt;
   --moovie_currenttime_fsize: 11pt;
   --moovie_cuetimer_fsize: 10pt;
-  /* Icons size */
   --moovie_svgicons_width: 15px;
-  /* General Styles */
   --moovie_padding_controls: 13px;
 }
-
-/* START CSS */
 
 video {
   background: transparent;
@@ -439,13 +428,13 @@ video {
   opacity: 0.4;
 }
 
-/* RANGE INPUT */
+
 
 input[type=range] {
   -webkit-appearance: none;
   background: transparent;
   width: 100%;
-  /* margin: 0 5px; */
+
   z-index: 3;
 }
 
@@ -467,7 +456,7 @@ input[type=range]::-moz-range-track {
   width: 100%;
   height: 5px;
   cursor: pointer;
-  background-color: rgba(198, 198, 198, 0.4);
+  background-color: rgba(112, 112, 112, 0.459);
   border-radius: 1.3px;
 }
 
@@ -489,7 +478,7 @@ input[type=range]::-moz-range-thumb {
   cursor: pointer;
 }
 
-/* PROGRESS BAR */
+
 
 progress {
   border-radius: 7px;
@@ -502,7 +491,7 @@ progress {
   top: 14px;
   border: 0px;
   z-index: 1;
-  background-color: #b32c2c00;
+  background-color: #fffdfd00;
 }
 
 progress::-webkit-progress-bar {
