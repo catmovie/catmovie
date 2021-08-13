@@ -96,12 +96,16 @@ video {
   bottom: 73px;
   right: 25px;
 }
-
+@font-face {
+  font-family: catweb;
+  src: url('catwebfont.ttf'),
+       url('catwebfont.woff'); 
+  }
 .moovie {
   position: relative;
   overflow: hidden;
   box-sizing: border-box;
-  font-family: Arial;
+  font-family: catweb;
   border-radius: 7px;
   outline: none!important;
 }
